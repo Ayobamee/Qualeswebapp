@@ -1,0 +1,234 @@
+.page { padding-top: 80px; }
+
+.hero {
+  padding: 6rem 0 5rem;
+  background: var(--off-white);
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  max-width: 640px;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.heroSub {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  max-width: 580px;
+  line-height: 1.75;
+}
+
+/* MISSION */
+.missionSection {
+  padding: 5.5rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.missionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.missionLeft h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
+.missionRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.missionRight p {
+  font-size: 1rem;
+  color: var(--gray-600);
+  line-height: 1.8;
+}
+
+/* SECTIONS */
+.section { padding: 5.5rem 0; }
+.bgGray { background: var(--off-white); }
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* VALUES */
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.valueCard {
+  background: white;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.valueCard h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.valueCard p {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.7;
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-left: 1px solid var(--gray-100);
+  margin-left: 3rem;
+  padding-left: 0;
+}
+
+.milestone {
+  display: grid;
+  grid-template-columns: 80px 24px 1fr;
+  align-items: start;
+  gap: 0 1.5rem;
+  padding: 0 0 2.5rem;
+  position: relative;
+}
+
+.milestoneYear {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1rem;
+  color: var(--gray-400);
+  text-align: right;
+  padding-top: 0.1rem;
+}
+
+.milestoneDot {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid var(--gray-200);
+  border-radius: 50%;
+  margin-top: 0.25rem;
+  position: relative;
+  left: -5px;
+  flex-shrink: 0;
+}
+
+.milestoneText {
+  font-size: 0.95rem;
+  color: var(--gray-800);
+  line-height: 1.6;
+  padding-top: 0.05rem;
+}
+
+/* TEAM */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.teamCard {
+  background: white;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.teamAvatar {
+  width: 56px;
+  height: 56px;
+  background: var(--black);
+  color: white;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.teamInfo strong {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.teamInfo span {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.teamInfo p {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.65;
+  margin-top: 0.5rem;
+}
+
+/* CTA */
+.cta { padding: 6rem 0; }
+
+.ctaBox {
+  background: var(--off-white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-xl);
+  padding: 4rem;
+  text-align: center;
+}
+
+.ctaBox h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.ctaBox p {
+  color: var(--gray-400);
+  margin-bottom: 2.5rem;
+}
+
+.ctaBtns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 860px) {
+  .missionGrid { grid-template-columns: 1fr; gap: 2rem; }
+  .valuesGrid { grid-template-columns: 1fr; }
+  .teamGrid { grid-template-columns: 1fr; }
+  .ctaBox { padding: 2.5rem 1.5rem; }
+}

@@ -1,0 +1,284 @@
+.page { padding-top: 80px; }
+
+/* HERO */
+.hero {
+  padding: 6rem 0 5rem;
+  background: var(--off-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -120px;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(26,60,110,0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent { max-width: 720px; }
+
+.badge {
+  display: inline-block;
+  background: var(--accent-muted);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  margin-bottom: 1.75rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  color: var(--black);
+  margin-bottom: 1.25rem;
+  line-height: 1.1;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.heroSub {
+  font-size: 1.1rem;
+  color: var(--gray-600);
+  max-width: 540px;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+/* SPLIT CARDS */
+.splitCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  max-width: 680px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid transparent;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.talentCard {
+  background: white;
+  border-color: var(--gray-100);
+}
+.talentCard:hover {
+  border-color: var(--talent-light);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 48px rgba(15,110,86,0.1);
+}
+
+.companyCard {
+  background: white;
+  border-color: var(--gray-100);
+}
+.companyCard:hover {
+  border-color: var(--accent-light);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 48px rgba(26,60,110,0.1);
+}
+
+.cardIcon {
+  width: 52px; height: 52px;
+  border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.talentCard .cardIcon { background: var(--talent-muted); color: var(--talent); }
+.companyCard .cardIcon { background: var(--accent-muted); color: var(--accent); }
+
+.cardBody { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.cardLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+}
+
+.card h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.35rem;
+  color: var(--black);
+}
+
+.card p {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  line-height: 1.55;
+}
+
+.cardCta {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.talentCard .cardCta { color: var(--talent); }
+.companyCard .cardCta { color: var(--accent); }
+
+/* STATS */
+.stats {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.statValue {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: var(--black);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}
+
+/* TRUSTED */
+.trusted { padding: 4rem 0; }
+
+.trustedLabel {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.logoRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+}
+
+.logoItem {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  color: var(--gray-200);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* HOW */
+.how {
+  padding: 6rem 0;
+  background: var(--off-white);
+}
+
+.howHeader {
+  max-width: 520px;
+  margin-bottom: 4rem;
+}
+
+.howTitle {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.howSub {
+  color: var(--gray-600);
+  font-size: 1rem;
+}
+
+.howSteps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.stepNum {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  color: var(--gray-200);
+  line-height: 1;
+}
+
+.step h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.step p {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+/* CTA */
+.cta { padding: 6rem 0; }
+
+.ctaBox {
+  background: var(--black);
+  border-radius: var(--radius-xl);
+  padding: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.ctaBox p {
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 2.5rem;
+}
+
+.ctaBtns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
+  .howSteps { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .splitCards { grid-template-columns: 1fr; }
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
+  .howSteps { grid-template-columns: 1fr; }
+  .ctaBox { padding: 2.5rem 1.5rem; }
+}

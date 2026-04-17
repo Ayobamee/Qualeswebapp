@@ -23,7 +23,7 @@ const values = [
 const team = [
   { name: 'Ayo Elutade', role: 'Head of Vision', initials: 'AO', bio: 'Former QA lead with 10+ years in fintech. Built Quales to solve the talent gap he experienced first-hand.' },
   { name: 'Bob Oghumah', role: 'Head of Training', initials: 'BO', bio: 'Educator with a passion for curriculum design and cohort mentorship.' },
-  { name: 'Elizabeth Joshua', role: 'Head of Strategy', initials: 'EA', bio: 'Chief Strategy Officer at Quales, driving the company\'s growth and expansion initiatives.' },
+  { name: 'Elizabeth Joshua', role: 'Head of Strategy', initials: 'EJ', bio: 'Chief Strategy Officer at Quales, driving the company\'s growth and expansion initiatives.' },
 ]
 
 const milestones = [

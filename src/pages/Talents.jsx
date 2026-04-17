@@ -102,7 +102,7 @@ export default function Talents() {
             </div>
             <div className={styles.heroStats}>
               <div className={styles.heroStat}>
-                <span className={styles.statVal}>92%</span>
+                <span className={styles.statVal}>80%</span>
                 <span className={styles.statLbl}>placement rate</span>
               </div>
               <div className={styles.heroStat}>

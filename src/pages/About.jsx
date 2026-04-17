@@ -31,7 +31,7 @@ const milestones = [
   { year: '2021', event: 'First partnership with Seamfix. about 20+ graduates placed in 12 months.' },
   { year: '2022', event: 'Launched automation track (Playwright & Cypress). 50+ total graduates.' },
   { year: '2023', event: 'Expanded to API & performance testing, also launched Scrum Mastery. 8 partner companies.' },
-  { year: '2024', event: '500+ graduates. 40+ partner companies. 92% placement rate.' },
+  { year: '2024', event: '500+ graduates. 10+ partner companies. 80% placement rate.' },
   { year: '2025', event: 'Launched Quales Certified badge programme, recognised industry-wide.' },
 ]
 

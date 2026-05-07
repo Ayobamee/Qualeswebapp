@@ -425,7 +425,7 @@
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
   font-family: inherit;
-  color: white;
+  color: black;
   background: var(--off-white);
   transition: border-color 0.2s;
   outline: none;

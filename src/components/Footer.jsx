@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className={`container ${styles.bottom}`}>
-        <p>© {new Date().getFullYear()} Quales. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Quales. All rights reserved. </p>
         <div className={styles.legal}>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>

@@ -19,7 +19,7 @@ const trustedLogos = [
   'Qore',
   'Zone',
   'RosellReid LLC',
-  'Chop Life Gaming'
+  'Chop Life Gaming',
 ]
 
 export default function Landing() {
@@ -31,14 +31,14 @@ export default function Landing() {
           <div className={styles.heroContent}>
             <div className={styles.badge}>Talent Training & Outsourcing</div>
             <h1 className={styles.heroTitle}>
-              Where great tech
+              Your partner for tech talent and delivery excellence.
               <br />
               <em>careers are built.</em>
             </h1>
             <p className={styles.heroSub}>
-              Quales trains world-class QA engineers & Scrum Masters and connects them with
-              Africa's leading fintech companies. Whether you want to start your
-              career or hire exceptional talent — you're in the right place.
+              Quales help companies hire vetted Software engineers, Scrum Masters, and
+              delivery professionals — while training the next generation of
+              industry-ready talent through immersive, hands-on programs.
             </p>
 
             {/* SPLIT CARDS */}
@@ -165,11 +165,11 @@ export default function Landing() {
           <div className={styles.ctaBox}>
             <h2>Ready to take the next step?</h2>
             <p>Choose your path and let's get started.</p>
-            <div className={styles.ctaBtns}>
-              <Link to='/talents' className='btn btn-talent'>
+            <div className={styles.ctaBtns} >
+              <Link to='/talents' className='btn btn-talent' style={{ background: '#0071E3' }}>
                 I'm a talent →
               </Link>
-              <Link to='/companies' className='btn btn-company'>
+              <Link to='/companies' className='btn btn-company' style={{ background: '#0071E3' }}>
                 I'm hiring →
               </Link>
             </div>

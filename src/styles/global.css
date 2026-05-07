@@ -66,6 +66,24 @@ button { cursor: pointer; font-family: inherit; }
   cursor: pointer;
 }
 
+
+
+.apple-cta-btn {
+  background: #0071E3;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 32px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.apple-cta-btn:hover {
+  background: #0077ED;
+}
+
 .btn-dark {
   background: var(--black);
   color: var(--white);

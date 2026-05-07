@@ -35,7 +35,7 @@
 
 .heroTitle {
   font-size: clamp(2.6rem, 5vw, 4rem);
-  color: var(--black);
+  color: #1A1A1A;
   margin-bottom: 1.25rem;
   line-height: 1.1;
 }
@@ -202,6 +202,7 @@
 
 .howTitle {
   font-size: 2.2rem;
+  color: #1D1D1F;
   margin-bottom: 1rem;
 }
 
@@ -246,7 +247,7 @@
 .cta { padding: 6rem 0; }
 
 .ctaBox {
-  background: var(--black);
+ background: #0F1720;
   border-radius: var(--radius-xl);
   padding: 4rem;
   text-align: center;

@@ -132,12 +132,12 @@ export default function About() {
       {/* CTA */}
       <section className={styles.cta}>
         <div className="container">
-          <div className={styles.ctaBox}>
+          <div className={styles.ctaBox}  >
             <h2>Which side of the table are you on?</h2>
-            <p>We've built something for both.</p>
+            <p>We've built something for both. </p>
             <div className={styles.ctaBtns}>
-              <Link to="/talents" className="btn btn-talent">I want to get trained →</Link>
-              <Link to="/companies" className="btn btn-company">I want to hire talent →</Link>
+              <Link to="/talents" className="btn btn-talent" style={{ background: '#0071E3' }}>I want to get trained →</Link>
+              <Link to="/companies" className="btn btn-company" style={{ background: '#0071E3' }}>I want to hire talent →</Link>
             </div>
           </div>
         </div>

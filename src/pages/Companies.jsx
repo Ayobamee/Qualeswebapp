@@ -95,7 +95,7 @@ export default function Companies() {
                 <span>Ongoing support</span>
               </div>
               <div className={styles.heroActions}>
-                <a href="#contact" className="btn btn-company">Request talent →</a>
+                <a href="#contact" className="btn btn-company" style={{ background: '#0071E3' }}>Request talent →</a>
                 <a href="#process" className="btn btn-outline">See how it works</a>
               </div>
             </div>
@@ -203,8 +203,8 @@ export default function Companies() {
         <div className="container">
           <div className={styles.formWrap}>
             <div className={styles.formLeft}>
-              <div className={styles.formLabel}>Request talent</div>
-              <h2 className={styles.formTitle}>Let's find your next QA engineer.</h2>
+              <div className={styles.formLabel} >Request talent</div>
+              <h2 className={styles.formTitle}>Let's find your next Software engineer.</h2>
               <p className={styles.formDesc}>
                 Tell us what you need and we'll come back to you within one business day with matched candidates.
               </p>
@@ -264,7 +264,7 @@ export default function Companies() {
                       <option>3+ months, planning ahead</option>
                     </select>
                   </div>
-                  <button type="submit" className="btn btn-company" style={{ width: '100%', justifyContent: 'center', padding: '0.9rem' }}>
+                  <button type="submit" className="btn btn-company" style={{ width: '100%', justifyContent: 'center', padding: '0.9rem', background: '#0071E3' }}>
                     Submit request
                   </button>
                 </form>

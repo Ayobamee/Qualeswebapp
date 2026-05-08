@@ -196,8 +196,8 @@ export default function Talents() {
       <section id='courses' className={styles.section}>
         <div className='container'>
           <div className='section-label'>Training courses</div>
-          <h2 className={styles.sectionTitle}>What you'll learn</h2>
-          <p className={styles.sectionSub}>
+          <h2 className={styles.trainingCourseTitle}>What you'll learn</h2>
+          <p className={styles.trainingCourseTitle}>
             Choose the program that matches your goals and experience level.
           </p>
           <div className={styles.courseGrid}>
@@ -243,7 +243,7 @@ export default function Talents() {
       </section>
 
       {/* TIMETABLE */}
-      <section id='timetable' className={`${styles.section} ${styles.bgGray}`}>
+      <section id='timetable' className={`${styles.section} ${styles.bgGreen}`}>
         <div className='container'>
           <div className='section-label'>Upcoming cohorts</div>
           <h2 className={styles.sectionTitle}>Cohort timetable</h2>
@@ -295,7 +295,7 @@ export default function Talents() {
       <section id='testimonials' className={styles.section}>
         <div className='container'>
           <div className='section-label'>Success stories</div>
-          <h2 className={styles.sectionTitle}>Graduates who made it</h2>
+          <h2 className={styles.testimonialTitle}>Graduates who made it</h2>
           <div className={styles.testimonialGrid}>
             {testimonials.map((t) => (
               <div key={t.name} className={styles.testimonialCard}>
@@ -314,7 +314,7 @@ export default function Talents() {
       </section>
 
       {/* REGISTER FORM */}
-      <section id='register' className={`${styles.section} ${styles.bgGray}`}>
+      <section id='register' className={`${styles.section} ${styles.bgGreen}`}>
         <div className='container'>
           <div className={styles.formWrap}>
             <div className={styles.formLeft}>

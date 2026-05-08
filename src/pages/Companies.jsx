@@ -199,7 +199,7 @@ export default function Companies() {
       </section>
 
       {/* CONTACT FORM */}
-      <section id="contact" className={`${styles.section} ${styles.bgDark}`}>
+      <section id="contact" className={`${styles.section} ${styles.bgGreen}`}>
         <div className="container">
           <div className={styles.formWrap}>
             <div className={styles.formLeft}>

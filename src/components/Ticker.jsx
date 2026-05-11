@@ -44,7 +44,7 @@ export default function Ticker({ items, speed = 30 }) {
               display: 'inline-block',
             }} />
             <span style={{
-              fontFamily: "'DM Serif Display', serif",
+              fontFamily: "'Cormorant Garamond', serif",
               fontSize: '1.15rem',
               color: '#9b9b97',
               letterSpacing: '-0.01em',

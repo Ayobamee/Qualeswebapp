@@ -83,7 +83,7 @@
 }
 
 .valueCard h3 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   color: var(--black);
@@ -115,7 +115,7 @@
 }
 
 .milestoneYear {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1rem;
   color: var(--gray-400);
   text-align: right;
@@ -167,7 +167,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.1rem;
 }
 

@@ -16,7 +16,7 @@ Official website for **Quales** (quales.tech) — talent training and outsourcin
 - **Vite + React** — fast, modern build
 - **React Router** — client-side routing
 - **CSS Modules** — scoped styling per page/component
-- **Google Fonts** — DM Serif Display + DM Sans
+- **Google Fonts** — DM Sans + DM Sans
 - **Netlify Forms** — no-backend form handling
 
 ---

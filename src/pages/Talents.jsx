@@ -154,7 +154,7 @@ export default function Talents() {
               <h1 className={styles.heroTitle}>
                 Launch your tech career
                 <br />
-                <em>the right way.</em>
+                <em>The right way.</em>
               </h1>
               <p className={styles.heroSub}>
                 Practical, cohort-based training in QA engineering & Scrum

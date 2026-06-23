@@ -50,9 +50,11 @@
 }
 
 .heroTitle {
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  color: #243746;
+  margin-bottom: 1.25rem;
   line-height: 1.1;
-  color: #1a3535;
 }
 
 .heroTitle em {

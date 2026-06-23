@@ -111,6 +111,11 @@ button {
   transform: translateY(-1px);
 }
 
+.btn-quitedark {
+  background: #243746;
+  color: var(--white);
+}
+
 .btn-outline {
   background: transparent;
   color: var(--black);

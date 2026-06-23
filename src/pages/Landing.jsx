@@ -31,9 +31,7 @@ export default function Landing() {
           <div className={styles.heroContent}>
             <div className={styles.badge}>Talent Training & Outsourcing</div>
             <h1 className={styles.heroTitle}>
-              Your partner for tech talent and delivery excellence.
-              <br />
-              <em>careers are built.</em>
+              Your partner for tech talent engineering and service delivery.
             </h1>
             <p className={styles.heroSub}>
               Quales help companies hire vetted Software engineers, Scrum Masters, and

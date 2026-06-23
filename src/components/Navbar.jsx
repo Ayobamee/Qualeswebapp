@@ -41,7 +41,7 @@ export default function Navbar() {
           {isCompanies ? (
             <Link to="/companies#contact" className="btn btn-dark">Hire Talent</Link>
           ) : (
-            <Link to="/talents#register" className="btn btn-dark">Apply Now</Link>
+            <Link to="/talents#register" className="btn btn-quitedark">Apply Now</Link>
           )}
           <button
             className={styles.burger}

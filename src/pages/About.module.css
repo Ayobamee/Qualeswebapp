@@ -1,12 +1,15 @@
-.page { padding-top: 80px; }
+.page {
+  padding-top: 80px;
+}
 
 .hero {
   padding: 6rem 0 5rem;
-  background: var(--off-white);
+  background: #e8f0f0;
   border-bottom: 1px solid var(--gray-100);
 }
 
 .heroTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: clamp(2.4rem, 5vw, 3.6rem);
   line-height: 1.1;
   margin-bottom: 1.5rem;
@@ -57,8 +60,12 @@
 }
 
 /* SECTIONS */
-.section { padding: 5.5rem 0; }
-.bgGray { background: var(--off-white); }
+.section {
+  padding: 5.5rem 0;
+}
+.bgGray {
+  background: var(--off-white);
+}
 
 .sectionTitle {
   font-size: 2rem;
@@ -199,7 +206,9 @@
 }
 
 /* CTA */
-.cta { padding: 6rem 0; }
+.cta {
+  padding: 6rem 0;
+}
 
 .ctaBox {
   background: var(--off-white);
@@ -217,7 +226,7 @@
 .ctaBox p {
   color: var(--gray-400);
   margin-bottom: 2.5rem;
-  color :black
+  color: black;
 }
 
 .ctaBtns {
@@ -228,8 +237,17 @@
 }
 
 @media (max-width: 860px) {
-  .missionGrid { grid-template-columns: 1fr; gap: 2rem; }
-  .valuesGrid { grid-template-columns: 1fr; }
-  .teamGrid { grid-template-columns: 1fr; }
-  .ctaBox { padding: 2.5rem 1.5rem; }
+  .missionGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+  .ctaBox {
+    padding: 2.5rem 1.5rem;
+  }
 }

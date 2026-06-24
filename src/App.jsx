@@ -7,6 +7,7 @@ import Landing from './pages/Landing'
 import About from './pages/About'
 import Talents from './pages/Talents'
 import Companies from './pages/Companies'
+import QAAgents from './pages/QAAgents'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/talents" element={<Talents />} />
         <Route path="/companies" element={<Companies />} />
+        <Route path="/qa-agents" element={<QAAgents />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

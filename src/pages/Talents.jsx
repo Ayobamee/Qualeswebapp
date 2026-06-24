@@ -438,7 +438,7 @@ export default function Talents() {
                       width: '100%',
                       justifyContent: 'center',
                       padding: '0.9rem',
-                      background: '#0071E3',
+                      background: '#0071e3',
                     }}
                   >
                     Submit application

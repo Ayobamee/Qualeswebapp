@@ -19,6 +19,7 @@ export default function Navbar() {
   const isTalents = location.pathname === '/talents'
   const isCompanies = location.pathname === '/companies'
   const isAbout = location.pathname === '/about'
+  const isQAAgents = location.pathname === '/qa-agents'
 
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
@@ -33,6 +34,9 @@ export default function Navbar() {
           </Link>
           <Link to="/companies" className={`${styles.link} ${isCompanies ? styles.active : ''}`}>
             For Companies
+          </Link>
+          <Link to="/qa-agents" className={`${styles.link} ${isQAAgents ? styles.active : ''}`}>
+            QA Agents
           </Link>
           <Link to="/about" className={`${styles.link} ${isAbout ? styles.active : ''}`}>About</Link>
         </div>

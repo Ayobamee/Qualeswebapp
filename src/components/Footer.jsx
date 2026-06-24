@@ -36,7 +36,7 @@ export default function Footer() {
             <Link to='/about'>About Quales</Link>
             <a href='#'>Blog</a>
             <a href='#'>Careers</a>
-            <a href='mailto:hello@quales.tech'>Contact</a>
+            <a href='mailto:info@quales.tech'>Contact</a>
           </div>
         </div>
       </div>

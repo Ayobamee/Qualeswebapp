@@ -122,7 +122,7 @@
 }
 
 .milestoneYear {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 1rem;
   color: var(--gray-400);
   text-align: right;
@@ -174,7 +174,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 1.1rem;
 }
 

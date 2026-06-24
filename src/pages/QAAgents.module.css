@@ -1,0 +1,374 @@
+.page {
+  padding-top: 80px;
+}
+
+/* HERO */
+.hero {
+  padding: 7rem 0 6rem;
+  background: #e8f0f0;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(2.4rem, 4.5vw, 3.4rem);
+  color: #243746;
+  line-height: 1.15;
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: #2b586b;
+}
+
+.heroSub {
+  color: var(--gray-600);
+  font-size: 1.05rem;
+  max-width: 480px;
+  line-height: 1.7;
+}
+
+.heroPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.heroPills span {
+  background: white;
+  border: 1px solid rgba(43, 88, 107, 0.18);
+  color: #2b586b;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.85rem;
+  border-radius: 100px;
+}
+
+.heroActions {
+  display: flex;
+  gap: 0.875rem;
+  flex-wrap: wrap;
+}
+
+.heroCard {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  border: 1px solid var(--gray-100);
+  box-shadow: 0 4px 32px rgba(43, 88, 107, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroCardLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  margin-bottom: 0.25rem;
+}
+
+.heroCardRow {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.875rem;
+  background: var(--gray-50);
+  border-radius: var(--radius-md);
+}
+
+.heroCardDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2b586b;
+  flex-shrink: 0;
+}
+
+.heroCardInfo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroCardInfo strong {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.heroCardInfo span {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+}
+
+.heroCardMetric {
+  font-family: 'Plus Jakarta Sans Garamond', serif;
+  font-size: 1.4rem;
+  color: #2b586b;
+  flex-shrink: 0;
+}
+
+/* AGENTS SECTION */
+.agentsSection {
+  padding: 5.5rem 0 0;
+}
+
+.sectionTitle {
+  font-size: 2.1rem;
+  margin-bottom: 0.75rem;
+  max-width: 620px;
+}
+
+.sectionSub {
+  color: var(--gray-600);
+  font-size: 0.98rem;
+  max-width: 540px;
+  margin-bottom: 3.5rem;
+}
+
+.agentBlock {
+  padding: 4.5rem 0;
+  border-top: 1px solid var(--gray-100);
+}
+
+.agentBlockAlt {
+  background: var(--off-white);
+}
+
+.agentGrid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.agentContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.agentTag {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #2b586b;
+  background: #e8f0f0;
+  padding: 0.3rem 0.85rem;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+.agentName {
+  font-size: 2rem;
+  color: var(--black);
+  line-height: 1.15;
+}
+
+.agentTagline {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  font-style: italic;
+  font-family: 'Plus Jakarta Sans Garamond', serif;
+}
+
+.agentTextBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.agentLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gray-400);
+}
+
+.agentTextBlock p {
+  font-size: 0.95rem;
+  color: var(--gray-800);
+  line-height: 1.75;
+}
+
+.agentCard {
+  background: white;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: sticky;
+  top: 100px;
+}
+
+.agentMetric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.agentMetricValue {
+  font-family: 'Plus Jakarta Sans Garamond', serif;
+  font-size: 2.8rem;
+  color: #2b586b;
+  line-height: 1;
+}
+
+.agentMetricLabel {
+  font-size: 0.85rem;
+  color: var(--gray-400);
+}
+
+.agentDivider {
+  height: 1px;
+  background: var(--gray-100);
+}
+
+.capListLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gray-400);
+}
+
+.capList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: -0.5rem;
+}
+
+.capList li {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.capList li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #e8f0f0;
+  border: 1.5px solid #2b586b;
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+}
+
+/* HOW IT WORKS */
+.howSection {
+  padding: 6rem 0;
+  background: var(--off-white);
+}
+
+.howGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.howStep {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.howNum {
+  font-family: 'Plus Jakarta Sans Garamond', serif;
+  font-size: 2rem;
+  color: var(--gray-200);
+  line-height: 1;
+}
+
+.howStep h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.howStep p {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+/* CTA */
+.ctaSection {
+  padding: 6rem 0;
+}
+
+.ctaBox {
+  background: #1a2b33;
+  border-radius: var(--radius-xl);
+  padding: 4rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ctaTitle {
+  font-size: 2.3rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.ctaSub {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 520px;
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.ctaBtns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+   background: #1a2b33;
+}
+
+@media (max-width: 960px) {
+  .heroInner { grid-template-columns: 1fr; }
+  .agentGrid { grid-template-columns: 1fr; gap: 2rem; }
+  .agentCard { position: static; }
+  .howGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .howGrid { grid-template-columns: 1fr; }
+  .ctaBox { padding: 2.5rem 1.5rem; }
+}

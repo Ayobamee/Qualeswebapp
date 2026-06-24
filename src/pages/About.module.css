@@ -168,7 +168,7 @@
 .teamAvatar {
   width: 56px;
   height: 56px;
-  background: var(--black);
+  background: #2b586b;
   color: white;
   border-radius: var(--radius-md);
   display: flex;

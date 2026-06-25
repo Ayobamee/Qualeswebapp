@@ -59,7 +59,7 @@
 
 .heroTitle em {
   font-style: italic;
-  color: #2b586b;
+  color: #0f4c5c;
 }
 
 .heroSub {
@@ -186,13 +186,14 @@
   top: -1px;
   right: 1.5rem;
   background: var(--talent);
-  color: white;
+  color: black;
   font-size: 0.72rem;
   font-weight: 600;
   padding: 0.3rem 0.85rem;
   border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  background: orange;
 }
 
 .courseHeader {

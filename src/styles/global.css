@@ -104,6 +104,7 @@ button {
 
 .btn-dark {
   background: var(--black);
+  background: #0071e3;
   color: var(--white);
 }
 .btn-dark:hover {
@@ -112,12 +113,12 @@ button {
 }
 
 .btn-quitedark {
-  background: #243746;
+  background: #0071e3;
   color: var(--white);
 }
 
-.btn-customized{
-  background: #0071E3;
+.btn-customized {
+  background: #0071e3;
   color: var(--white);
 }
 

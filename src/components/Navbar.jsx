@@ -24,35 +24,55 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.inner}`}>
-        <Link to="/" className={styles.logo}>
-          <img src={qualLogo} alt="Quales" className={styles.logoImg} />
+        <Link to='/' className={styles.logo}>
+          <img src={qualLogo} alt='Quales' className={styles.logoImg} />
         </Link>
 
         <div className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
-          <Link to="/talents" className={`${styles.link} ${isTalents ? styles.active : ''}`}>
+          <Link
+            to='/talents'
+            className={`${styles.link} ${isTalents ? styles.active : ''}`}
+          >
             For Talents
           </Link>
-          <Link to="/companies" className={`${styles.link} ${isCompanies ? styles.active : ''}`}>
+          <Link
+            to='/companies'
+            className={`${styles.link} ${isCompanies ? styles.active : ''}`}
+          >
             For Companies
           </Link>
-          <Link to="/qa-agents" className={`${styles.link} ${isQAAgents ? styles.active : ''}`}>
+          <Link
+            to='/qa-agents'
+            className={`${styles.link} ${isQAAgents ? styles.active : ''}`}
+          >
             QA Agents
           </Link>
-          <Link to="/about" className={`${styles.link} ${isAbout ? styles.active : ''}`}>About</Link>
+          <Link
+            to='/about'
+            className={`${styles.link} ${isAbout ? styles.active : ''}`}
+          >
+            About
+          </Link>
         </div>
 
         <div className={styles.actions}>
           {isCompanies ? (
-            <Link to="/companies#contact" className="btn btn-dark">Hire Talent</Link>
+            <Link to='/companies#contact' className='btn btn-dark'>
+              Hire Talent
+            </Link>
           ) : (
-            <Link to="/talents#register" className="btn btn-quitedark">Apply Now</Link>
+            <Link to='/talents#register' className='btn btn-quitedark'>
+              Apply Now
+            </Link>
           )}
           <button
             className={styles.burger}
-            onClick={() => setMenuOpen(v => !v)}
-            aria-label="Toggle menu"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label='Toggle menu'
           >
-            <span /><span /><span />
+            <span />
+            <span />
+            <span />
           </button>
         </div>
       </div>

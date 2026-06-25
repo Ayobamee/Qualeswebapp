@@ -90,23 +90,23 @@ const timetable = [
 const testimonials = [
   {
     name: 'Sandra Alutu',
-    role: 'Project Manager @ Quales',
+    role: 'Scrum Master @ Quales',
     quote:
-      'Quales gave me the practical skills and confidence I needed. Within 3 months of graduating, I had my first offer.',
+      'My journey with Quales through learning Scrum, taking the exam, and completing an internship has been incredibly rewarding. From the classes to the Exam support to my internship with Quales now, it has been all I hoped for and more. The combination of theoretical learning and practical experience has given me a solid foundation in Scrum, and I am excited to continue applying these skills in my career.',
     initials: 'AO',
   },
   {
     name: 'Bashiru Alatishe',
-    role: 'Automation Tester @ Kuda Bank',
+    role: 'Automation Test Lead @ Kuda Bank',
     quote:
-      'The Playwright course was exactly what I needed to level up. The instructors are practitioners, not just teachers.',
+      "It's been a wonderful experience with Quales. After the training and examination with Quales, they always make sure that they keep in touch with their Alumni, even my first job as a Software tester was through Quales, after which I got my job with Interswitch.",
     initials: 'EN',
   },
   {
     name: 'Ayomide Obanewa',
-    role: 'QA Lead @ Obanewa Legals',
+    role: 'QA Lead @ Cartolinks',
     quote:
-      'I came in as a complete beginner. Today I lead a QA team. Quales is the reason.',
+      'Learning automation testing was one of the most memorable moments at Quales. It was very impressive, especially with the fact that I came from a non-tech background (in Law), having to learn the codes, javascript and more, seeing how simplified by the trainer and right now I got a placement at a Crypto exchange company.',
     initials: 'FA',
   },
 ]
@@ -408,7 +408,10 @@ export default function Talents() {
                   </div>
                   <div className={styles.field}>
                     <label>Current experience level</label>
-                    <select style={{ color: form.experience ? 'black' : 'rgba(0, 0, 0, 0.5)' }}
+                    <select
+                      style={{
+                        color: form.experience ? 'black' : 'rgba(0, 0, 0, 0.5)',
+                      }}
                       name='experience'
                       value={form.experience}
                       onChange={handle}

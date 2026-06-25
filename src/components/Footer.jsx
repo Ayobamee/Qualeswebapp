@@ -13,7 +13,7 @@ export default function Footer() {
           <p className={styles.tagline}>
             Building Africa's next generation of world-class tech talents.
           </p>
-          <p className={styles.location}>Lagos, Delaware.</p>
+          <p className={styles.location}>Lagos, Nigeria.</p>
         </div>
 
         <div className={styles.cols}>
@@ -31,6 +31,18 @@ export default function Footer() {
             <Link to='/companies#clients'>Trusted By</Link>
             <Link to='/companies#contact'>Hire Talent</Link>
           </div>
+
+          <div className={styles.col}>
+            <h4>QA Agents</h4>
+            <Link to='/qa-agents#test-case-generator'>Test Case Generator</Link>
+            <Link to='/qa-agents#self-healer'>Self-Healing Reporter</Link>
+            <Link to='/qa-agents#coverage-gap-detector'>
+              Coverage Gap Detector
+            </Link>
+            <a href='mailto:hello@quales.tech?subject=Book%20a%20demo%20-%20QA%20Agent%20Suite'>
+              Book a Demo
+            </a>
+          </div>
           <div className={styles.col}>
             <h4>Company</h4>
             <Link to='/about'>About Quales</Link>
@@ -45,7 +57,6 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Quales. All rights reserved. </p>
         <p> Powered by T.B.L</p>
         <div className={styles.legal}>
-          <a href='#'>Privacy Policy</a>
           <a href='#'>Terms of Service</a>
         </div>
       </div>

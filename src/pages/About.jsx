@@ -77,16 +77,33 @@ export default function About() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className='container'>
-          <div className='section-label'>Our story</div>
+          <div className={styles.badge}>Our story</div>
           <h1 className={styles.heroTitle}>
             We exist because the
             <br />
             <em>talent gap is real.</em>
           </h1>
           <p className={styles.heroSub}>
-            Quales was founded in Lagos in 2020 with a single observation:
-            Nigeria produces brilliant engineers, but the path from eager
-            learner to employed professional is broken. We built the bridge.
+            Quales Consulting is an engineering and talent placement firm
+            building Africa's quality assurance future. We partner with
+            fintechs, gaming operators, infrastructure providers and technology
+            companies to help them build faster, release with confidence and
+            scale without quality becoming a bottleneck.
+          </p>
+
+          <p className={styles.heroSub}>
+            Through our consulting arm, we embed senior quality engineers into
+            delivery teams, build AI- powered automation infrastructure and
+            transform QA operating models across some of Africa's most critical
+            technology platforms.
+          </p>
+
+          <p className={styles.heroSub}>
+            Through Quales Academy, we develop the next generation of QA
+            professionals with the automation expertise, AI fluency and
+            consulting readiness the industry demands. "Building Africa into the
+            world's home of software quality, powered by talent, driven by
+            innovation, and defined by excellence."
           </p>
         </div>
       </section>

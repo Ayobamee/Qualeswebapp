@@ -91,7 +91,7 @@ export default function QAAgents() {
         <div className='container'>
           <div className={styles.heroInner}>
             <div className={styles.heroText}>
-              <div className='section-label'>QA Agent Suite</div>
+              <div className={styles.badge}>QA Agent Suite</div>
               <h1 className={styles.heroTitle}>
                 AI agents that <em>do the QA work</em>
                 <br />

@@ -34,9 +34,10 @@ export default function Landing() {
               Your partner for tech talent engineering and service delivery.
             </h1>
             <p className={styles.heroSub}>
-              Quales help companies hire vetted Software engineers, Scrum Masters, and
-              delivery professionals — while training the next generation of
-              industry-ready talent through immersive, hands-on programs.
+              Quales help companies hire vetted Software engineers, Scrum
+              Masters, and delivery professionals — while training the next
+              generation of industry-ready talent through immersive, hands-on
+              programs.
             </p>
 
             {/* SPLIT CARDS */}
@@ -117,7 +118,7 @@ export default function Landing() {
       <section className={styles.how}>
         <div className='container'>
           <div className={styles.howHeader}>
-            <div className='section-label'>Our model</div>
+            <div className={styles.badge}>Our model</div>
             <h2 className={styles.howTitle}>Train. Certify. Place. Repeat.</h2>
             <p className={styles.howSub}>
               A full-cycle system that turns eager learners into
@@ -163,11 +164,19 @@ export default function Landing() {
           <div className={styles.ctaBox}>
             <h2>Ready to take the next step?</h2>
             <p>Choose your path and let's get started.</p>
-            <div className={styles.ctaBtns} >
-              <Link to='/talents' className='btn btn-talent' style={{ background: '#0071E3' }}>
+            <div className={styles.ctaBtns}>
+              <Link
+                to='/talents'
+                className='btn btn-talent'
+                style={{ background: '#0071E3' }}
+              >
                 I'm a talent →
               </Link>
-              <Link to='/companies' className='btn btn-company' style={{ background: '#0071E3' }}>
+              <Link
+                to='/companies'
+                className='btn btn-company'
+                style={{ background: '#0071E3' }}
+              >
                 I'm hiring →
               </Link>
             </div>

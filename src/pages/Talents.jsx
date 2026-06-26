@@ -3,90 +3,62 @@ import styles from './Talents.module.css'
 
 const courses = [
   {
-    title: 'Scrum Mastery',
-    duration: '4 weeks',
-    level: 'Beginner',
-    topics: [
-      'Scrum fundamentals',
-      'Sprint planning',
-      'Retrospectives',
-      'Team facilitation',
-    ],
-    price: '₦385,000',
-  },
-  {
-    title: 'Full Stack QA Engineering',
+    title: ' Premium Package',
     duration: '8 weeks',
     level: 'Intermediate',
     topics: [
-      'QA fundamentals',
-      'Test planning and execution',
-      'A.P.I Testing',
-      'Playwright setup',
-      'Page Object Model',
-      'CI/CD integration',
-      'Reporting',
-      'Testing with A.I',
+      ' 8-week intensive training',
+      ' 2-week employment readiness',
+      ' 3-month internship',
+      'Admission into the Quales Network of 300+ testers.',
+      'Placement support',
+      'ISTQB CTFL Certification',
     ],
-    price: '₦800,000',
+    price: 'One-time payment ₦858,500(save ₦10,000)',
+    additonalInfo: 'Instalment:₦289,500 per month over 3 months ',
     featured: true,
   },
+
   {
-    title: 'ISTQB Foundation Certification Preparation',
-    duration: '4 weeks',
+    title: ' Standard Package',
+    duration: '8 weeks',
     level: 'Intermediate',
     topics: [
-      'Fundamentals of testing',
-      'Testing through the SDLC',
-      'Static Testing',
-      'Test Analysis and Design',
-      'Managing the Test Activities',
-      'Test Tools',
+      '  8-week intensive training',
+      ' 2-week employment readiness',
+      'Admission into the Quales Network of 300+ testers.',
+      'Placement support',
+      'ISTQB CTFL Certification',
     ],
-    price: '₦400,000',
+
+    price: 'One-time payment ₦590,000(save ₦10,000)',
+    additonalInfo: 'Instalment:₦200,000 per month over 3 months ',
+    featured: false,
   },
+
   {
-    title: 'QA Engineering Bootcamp',
-    duration: '12 weeks',
-    level: 'Comprehensive',
+    title: ' Basic Package',
+    duration: '8 weeks',
+    level: 'Intermediate',
     topics: [
-      'Full curriculum',
-      'Live projects',
-      'Mentorship',
-      'Job placement support',
+      '  8-week intensive training',
+      ' 2-week employment readiness',
+      'Admission into the Quales Network of 300+ testers.',
+      'Placement support',
     ],
-    price: '₦500,000',
+
+    price: 'One-time payment ₦290,000(save ₦10,000)',
+    featured: false,
   },
 ]
 
 const timetable = [
   {
-    cohort: 'Cohort 7',
-    course: 'Scrum Mastery',
-    start: 'September 6, 2026',
-    seats: 10,
-    status: 'Open',
-  },
-  {
-    cohort: 'Cohort 16',
+    cohort: 'Cohort 22',
     course: 'Full Stack QA Engineering',
-    start: 'September 19, 2026',
+    start: 'August, 2026',
     seats: 20,
     status: 'Open',
-  },
-  {
-    cohort: 'Cohort 9',
-    course: 'ISTQB Foundation Certification Preparation',
-    start: 'September 16, 2026',
-    seats: 5,
-    status: 'Open',
-  },
-  {
-    cohort: 'Cohort 10',
-    course: 'QA Engineering Bootcamp',
-    start: 'September 26, 2026',
-    seats: 4,
-    status: 'Filling fast',
   },
 ]
 
@@ -153,16 +125,22 @@ export default function Talents() {
         <div className='container'>
           <div className={styles.heroInner}>
             <div className={styles.heroText}>
-              <div className='section-label'>For Talents</div>
+              <div className={styles.badge}>For Talents</div>
               <h1 className={styles.heroTitle}>
                 Launch your tech career
                 <br />
                 <em>The right way.</em>
               </h1>
+
               <p className={styles.heroSub}>
                 Practical, cohort-based training in QA engineering & Scrum
                 Mastery. Learn from industry practitioners, work on real
                 projects, and get placed at top fintech companies.
+              </p>
+              <p className={styles.heroSub}>
+                Want to learn more before you commit? Join our free information
+                Session on Friday, 18 July 2026. Meet the team, ask your
+                questions and get a full walkthrough of our programme.
               </p>
               <div className={styles.heroPills}>
                 <span>100% practical curriculum</span>
@@ -170,7 +148,7 @@ export default function Talents() {
                 <span>Placement support</span>
               </div>
               <a href='#register' className={styles.heroApplyBtn}>
-                Apply for next cohort →
+                Reserve Your Spot →
               </a>
             </div>
             <div className={styles.heroStats}>
@@ -195,14 +173,57 @@ export default function Talents() {
         </div>
       </section>
 
+      {/*Curriculum Overview */}
+
+      <section id='curriculum' className={styles.section}>
+        <div className='container'>
+          <div className='section-label'>Curriculum</div>
+          <h2 className={styles.trainingCourseTitle}>
+            Curriculum : Your 10-Week Journey
+          </h2>
+          <div className={styles.secondformPerks}>
+            <div className={styles.secondperk}>
+              ✓ Week 1 : Testing Fundamentals
+            </div>
+            <div className={styles.secondperk}>✓ Week 2: SDLC and Testing</div>
+            <div className={styles.secondperk}>
+              ✓ Week 3: Levels of Testing and Test Preparation
+            </div>
+            <div className={styles.secondperk}>
+              ✓ Week 4 and 5: Manual and A.P.I Testing using Postman
+            </div>
+            <div className={styles.secondperk}>
+              ✓ Week 6: Version Control with Git and GitHub
+            </div>
+            <div className={styles.secondperk}>
+              ✓ Week 7 and 8: Automated Testing with Playwright
+            </div>
+            <div className={styles.secondperk}>
+              ✓ Week 9: Career Preparation and Stakeholder Communication
+            </div>
+            <div className={styles.secondperk}>
+              ✓ Week 10: Exam Prep, Mentorship and Internship
+            </div>
+            <div className={styles.secondperk}>
+              ✓ After your 10 weeks, top performers enter a structured 3-month
+              internship designed to give you real industry experience.
+              <i>
+                {' '}
+                (Please speak to a Quales representative for more information.)
+              </i>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* COURSES */}
       <section id='courses' className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Training courses</div>
-          <h2 className={styles.trainingCourseTitle}>What you'll learn</h2>
-          <p className={styles.trainingCourseTitle}>
-            Choose the program that matches your goals and experience level.
-          </p>
+          <div className='section-label'>Plans</div>
+          <h2 className={styles.trainingCourseTitle}>
+            Choose the right plan for you
+          </h2>
+
           <div className={styles.courseGrid}>
             {courses.map((c) => (
               <div
@@ -225,7 +246,12 @@ export default function Talents() {
                   ))}
                 </ul>
                 <div className={styles.courseFooter}>
-                  <span className={styles.price}>{c.price}</span>
+                  <div className={styles.priceGroup}>
+                    <span className={styles.price}>{c.price}</span>
+                    <span className={styles.additionalInfo}>
+                      {c.additonalInfo}
+                    </span>
+                  </div>
                   <a
                     href='#register'
                     className={`btn ${c.featured ? 'btn-talent' : 'btn-outline'}`}

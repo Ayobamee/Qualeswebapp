@@ -19,7 +19,19 @@
   flex-direction: column;
   gap: 1.25rem;
 }
-
+.badge {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: inline-block;
+  background: var(--accent-muted);
+  color: #5b7d8c;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  margin-bottom: 1.75rem;
+}
 .heroTitle {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: clamp(2.6rem, 5vw, 4rem);
@@ -34,7 +46,7 @@
 }
 
 .heroSub {
-  color: var(--gray-600);
+  color: #4a7080;
   font-size: 1.05rem;
   max-width: 460px;
   line-height: 1.7;
@@ -242,7 +254,7 @@
   background: var(--off-white);
 }
 .bgGreen {
-  background: #23313A;
+  background: #23313a;
 }
 
 .sectionTitle {

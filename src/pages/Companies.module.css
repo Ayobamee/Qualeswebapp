@@ -170,7 +170,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--gray-400);
+  color: var(--talent);
   text-align: center;
   margin-bottom: 1.75rem;
 }
@@ -254,15 +254,16 @@
   background: var(--off-white);
 }
 .bgGreen {
-  background: #23313a;
+  background: #1a2b33;
 }
 
 .sectionTitle {
   font-size: 2rem;
   margin-bottom: 0.75rem;
+  color: #243746;
 }
 .sectionSub {
-  color: var(--gray-600);
+  color: #4a7080;
   font-size: 0.95rem;
   margin-bottom: 3rem;
   max-width: 500px;
@@ -286,7 +287,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--black);
+  color: #243746;
   margin-bottom: 1rem;
   padding-bottom: 0.875rem;
   border-bottom: 1px solid var(--gray-100);
@@ -301,7 +302,7 @@
 
 .skillCard li {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #4a7080;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -336,7 +337,7 @@
 .processNum {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 2.2rem;
-  color: var(--gray-200);
+  color: #5b7d8c;
   line-height: 1;
 }
 
@@ -359,12 +360,12 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--black);
+  color: #243746;
 }
 
 .processBody p {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #5b7d8c;
   line-height: 1.6;
 }
 
@@ -394,7 +395,7 @@
 
 .quote {
   font-size: 0.92rem;
-  color: var(--gray-800);
+  color: #5b7d8c;
   line-height: 1.75;
   font-style: italic;
 }
@@ -424,10 +425,11 @@
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
+  color: #4a7080;
 }
 .author span {
   font-size: 0.78rem;
-  color: var(--gray-400);
+  color: #4a7080;
 }
 
 /* FORM (dark bg) */

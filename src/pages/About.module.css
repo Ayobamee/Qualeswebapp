@@ -59,6 +59,7 @@
   font-size: 2rem;
   margin-top: 1rem;
   line-height: 1.2;
+  color: #243746;
 }
 
 .missionRight {
@@ -69,7 +70,7 @@
 
 .missionRight p {
   font-size: 1rem;
-  color: var(--gray-600);
+  color: #5b7d8c;
   line-height: 1.8;
 }
 
@@ -84,6 +85,7 @@
 .sectionTitle {
   font-size: 2rem;
   margin-bottom: 3rem;
+  color: #243746;
 }
 
 /* VALUES */
@@ -107,12 +109,12 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--black);
+  color: #5b7d8c;
 }
 
 .valueCard p {
   font-size: 0.9rem;
-  color: var(--gray-600);
+  color: #5b7d8c;
   line-height: 1.7;
 }
 
@@ -138,7 +140,7 @@
 .milestoneYear {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 1rem;
-  color: var(--gray-400);
+  color: #5b7d8c;
   text-align: right;
   padding-top: 0.1rem;
 }
@@ -157,7 +159,7 @@
 
 .milestoneText {
   font-size: 0.95rem;
-  color: var(--gray-800);
+  color: #5b7d8c;
   line-height: 1.6;
   padding-top: 0.05rem;
 }
@@ -182,7 +184,7 @@
 .teamAvatar {
   width: 56px;
   height: 56px;
-  background: #2b586b;
+  background: #1a2b33;
   color: white;
   border-radius: var(--radius-md);
   display: flex;
@@ -201,12 +203,12 @@
 .teamInfo strong {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--black);
+  color: #5b7d8c;
 }
 
 .teamInfo span {
   font-size: 0.8rem;
-  color: var(--gray-400);
+  color: #5b7d8c;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 600;
@@ -214,7 +216,7 @@
 
 .teamInfo p {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #5b7d8c;
   line-height: 1.65;
   margin-top: 0.5rem;
 }
@@ -230,6 +232,7 @@
   border-radius: var(--radius-xl);
   padding: 4rem;
   text-align: center;
+  color: #243746;
 }
 
 .ctaBox h2 {
@@ -240,7 +243,7 @@
 .ctaBox p {
   color: var(--gray-400);
   margin-bottom: 2.5rem;
-  color: black;
+  color: #5b7d8c;
 }
 
 .ctaBtns {

@@ -176,7 +176,11 @@ export default function Companies() {
                 >
                   Request talent →
                 </a>
-                <a href='#process' className='btn btn-outline'>
+                <a
+                  href='#process'
+                  className='btn btn-outline'
+                  style={{ color: '#4a7080' }}
+                >
                   See how it works
                 </a>
               </div>
@@ -267,7 +271,9 @@ export default function Companies() {
       {/* PROCESS */}
       <section id='process' className={`${styles.section} ${styles.bgGray}`}>
         <div className='container'>
-          <div className='section-label'>How it works</div>
+          <div className= 'greensection-label'>
+            How it works
+          </div>
           <h2 className={styles.sectionTitle}>
             From request to onboarded, fast.
           </h2>
@@ -295,7 +301,7 @@ export default function Companies() {
       {/* TESTIMONIALS */}
       <section id='clients' className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Client testimonials</div>
+          <div className='greensection-label'>Client testimonials</div>
           <h2 className={styles.sectionTitle}>What our clients say</h2>
           <div className={styles.testimonialGrid}>
             {testimonials.map((t) => (

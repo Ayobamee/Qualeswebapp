@@ -113,7 +113,7 @@ export default function About() {
         <div className='container'>
           <div className={styles.missionGrid}>
             <div className={styles.missionLeft}>
-              <div className='section-label'>Our mission</div>
+              <div className='greensection-label'>Our mission</div>
               <h2>Train the best. Place them at the best.</h2>
             </div>
             <div className={styles.missionRight}>
@@ -136,7 +136,7 @@ export default function About() {
       {/* VALUES */}
       <section className={`${styles.section} ${styles.bgGray}`}>
         <div className='container'>
-          <div className='section-label'>What we believe</div>
+          <div className='greensection-label'>What we believe</div>
           <h2 className={styles.sectionTitle}>Our values</h2>
           <div className={styles.valuesGrid}>
             {values.map((v) => (
@@ -152,7 +152,7 @@ export default function About() {
       {/* TIMELINE */}
       <section className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Our journey</div>
+          <div className='greensection-label'>Our journey</div>
           <h2 className={styles.sectionTitle}>Five years, 500+ careers.</h2>
           <div className={styles.timeline}>
             {milestones.map((m) => (
@@ -169,7 +169,7 @@ export default function About() {
       {/* TEAM */}
       <section className={`${styles.section} ${styles.bgGray}`}>
         <div className='container'>
-          <div className='section-label'>The team</div>
+          <div className='greensection-label'>The team</div>
           <h2 className={styles.sectionTitle}>Built by practitioners.</h2>
           <div className={styles.teamGrid}>
             {team.map((t) => (

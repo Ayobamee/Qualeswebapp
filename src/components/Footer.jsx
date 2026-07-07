@@ -56,9 +56,6 @@ export default function Footer() {
       <div className={`container ${styles.bottom}`}>
         <p>© {new Date().getFullYear()} Quales. All rights reserved. </p>
         <p> Powered by T.B.L</p>
-        <div className={styles.legal}>
-          <a href='#'>Terms of Service</a>
-        </div>
       </div>
     </footer>
   )

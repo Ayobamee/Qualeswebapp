@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 import styles from './QAAgents.module.css'
 
-const DEMO_LINK = 'mailto:info@quales.tech?subject=Book%20a%20demo%20-%20QA%20Agent%20Suite'
+const DEMO_LINK =
+  'mailto:info@quales.tech?subject=Book%20a%20demo%20-%20QA%20Agent%20Suite'
 
 const agents = [
   {
@@ -144,7 +145,7 @@ export default function QAAgents() {
       {/* AGENTS - deep sections */}
       <section id='agents' className={styles.agentsSection}>
         <div className='container'>
-          <div className='section-label'>The suite</div>
+          <div className='greensection-label'>The suite</div>
           <h2 className={styles.sectionTitle}>
             Three agents. One mission: ship quality faster.
           </h2>
@@ -212,7 +213,7 @@ export default function QAAgents() {
       {/* HOW IT WORKS */}
       <section className={styles.howSection}>
         <div className='container'>
-          <div className='section-label'>Getting started</div>
+          <div className='greensection-label'>Getting started</div>
           <h2 className={styles.sectionTitle}>
             From install to insight, fast.
           </h2>

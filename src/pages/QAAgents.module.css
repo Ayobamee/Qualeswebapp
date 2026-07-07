@@ -91,7 +91,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gray-400);
+  color: #243746;
   margin-bottom: 0.25rem;
 }
 
@@ -122,12 +122,12 @@
 .heroCardInfo strong {
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--black);
+  color: #556b78;
 }
 
 .heroCardInfo span {
   font-size: 0.75rem;
-  color: var(--gray-400);
+  color: #2b586b;
 }
 
 .heroCardMetric {
@@ -146,10 +146,11 @@
   font-size: 2.1rem;
   margin-bottom: 0.75rem;
   max-width: 620px;
+  color: #243746;
 }
 
 .sectionSub {
-  color: var(--gray-600);
+  color: #556b78;
   font-size: 0.98rem;
   max-width: 540px;
   margin-bottom: 3.5rem;
@@ -192,13 +193,13 @@
 
 .agentName {
   font-size: 2rem;
-  color: var(--black);
+  color: #243746;
   line-height: 1.15;
 }
 
 .agentTagline {
   font-size: 1.05rem;
-  color: var(--gray-600);
+  color: #556b78;
   font-style: italic;
   font-family: 'Plus Jakarta Sans Garamond', serif;
 }
@@ -215,12 +216,12 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--gray-400);
+  color: #243746;
 }
 
 .agentTextBlock p {
   font-size: 0.95rem;
-  color: var(--gray-800);
+  color: #556b78;
   line-height: 1.75;
 }
 
@@ -251,7 +252,7 @@
 
 .agentMetricLabel {
   font-size: 0.85rem;
-  color: var(--gray-400);
+  color: #2b586b;
 }
 
 .agentDivider {
@@ -265,7 +266,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--gray-400);
+  color: #243746;
 }
 
 .capList {
@@ -278,7 +279,7 @@
 
 .capList li {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #556b78;
   line-height: 1.5;
   padding-left: 1.1rem;
   position: relative;
@@ -317,7 +318,7 @@
 .howNum {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 2rem;
-  color: var(--gray-200);
+  color: #243746;
   line-height: 1;
 }
 
@@ -325,12 +326,12 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--black);
+  color: #243746;
 }
 
 .howStep p {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: var(--talent);
   line-height: 1.6;
 }
 

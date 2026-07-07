@@ -126,6 +126,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  color: var(--talent);
 }
 
 .cardLabel {
@@ -134,19 +135,19 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gray-400);
+  color: var(--talent);
 }
 
 .card h2 {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: var(--black);
+  color: #243746;
 }
 
 .card p {
   font-size: 0.88rem;
-  color: var(--gray-600);
+  color: var(--talent);
   line-height: 1.55;
 }
 
@@ -183,18 +184,19 @@
 .statValue {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--talent);
   line-height: 1;
 }
 
 .statLabel {
   font-size: 0.875rem;
-  color: var(--gray-400);
+  color: var(--talent);
 }
 
 /* TRUSTED */
 .trusted {
   padding: 4rem 0;
+  color: var(--talent);
 }
 
 .trustedLabel {
@@ -202,7 +204,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--gray-400);
+  color: var(--talent);
   text-align: center;
   margin-bottom: 2.5rem;
 }
@@ -212,12 +214,13 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem 2.5rem;
+   color: var(--talent);
 }
 
 .logoItem {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 1.2rem;
-  color: var(--gray-200);
+  color: var(--talent);
   font-weight: 400;
   letter-spacing: -0.01em;
 }
@@ -241,7 +244,6 @@
   margin-bottom: 1rem;
 }
 
-
 .howSub {
   color: #5b7d8c;
   font-size: 1rem;
@@ -263,7 +265,7 @@
 .stepNum {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 2rem;
-color: #5b7d8c;
+  color: #5b7d8c;
   line-height: 1;
 }
 
@@ -286,7 +288,7 @@ color: #5b7d8c;
 }
 
 .ctaBox {
-  background: #23313a;
+  background: #1a2b33;
   border-radius: var(--radius-xl);
   padding: 4rem;
   text-align: center;

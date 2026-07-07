@@ -177,7 +177,7 @@ export default function Talents() {
 
       <section id='curriculum' className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Curriculum</div>
+          <div className={styles.curriculumLabel}>Curriculum</div>
           <h2 className={styles.trainingCourseTitle}>
             Curriculum : Your 10-Week Journey
           </h2>
@@ -219,7 +219,7 @@ export default function Talents() {
       {/* COURSES */}
       <section id='courses' className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Plans</div>
+          <div className={styles.curriculumLabel}>Plans</div>
           <h2 className={styles.trainingCourseTitle}>
             Choose the right plan for you
           </h2>
@@ -323,8 +323,8 @@ export default function Talents() {
       {/* TESTIMONIALS */}
       <section id='testimonials' className={styles.section}>
         <div className='container'>
-          <div className='section-label'>Success stories</div>
-          <h2 className={styles.testimonialTitle}>Graduates who made it</h2>
+          <div className={styles.curriculumLabel}>Success stories</div>
+          <h2 className={styles.trainingCourseTitle}>Graduates who made it</h2>
           <div className={styles.testimonialGrid}>
             {testimonials.map((t) => (
               <div key={t.name} className={styles.testimonialCard}>

@@ -45,7 +45,7 @@
 .heroText .sectionLabel,
 .heroText [class*='section-label'] {
   .bgGreen {
-    background: var(--off-white);
+    background: #5b7d8c;
   }
 }
 
@@ -138,7 +138,7 @@
   padding: 5.5rem 0;
 }
 .bgGreen {
-  background: #23313a;
+  background: #1a2b33;
 }
 
 .sectionTitle {
@@ -156,7 +156,13 @@
 .trainingCourseTitle {
   font-size: 2rem;
   margin-bottom: 0.75rem;
-  color: black;
+  color: #243746;
+}
+
+.curriculumLabel {
+  color: #243746;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .sectionSub {
@@ -171,6 +177,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
+  color: #4a7080;
 }
 
 .courseCard {
@@ -200,7 +207,7 @@
   top: -1px;
   right: 1.5rem;
   background: var(--talent);
-  color: black;
+  color: #1a2b33;
   font-size: 0.72rem;
   font-weight: 600;
   padding: 0.3rem 0.85rem;
@@ -220,7 +227,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
-  color: var(--black);
+  color: #243746;
 }
 
 .courseMeta {
@@ -252,7 +259,7 @@
 
 .topics li {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #4a7080;
   padding-left: 1rem;
   position: relative;
 }
@@ -284,7 +291,7 @@
 .additionalInfo {
   font-family: 'Plus Jakarta Sans Garamond', serif;
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #4a7080;
 }
 
 /* TIMETABLE */
@@ -353,11 +360,16 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  color: #4a7080;
+}
+
+.testimonialName{
+  color: #4a7080;
 }
 
 .quote {
   font-size: 0.95rem;
-  color: var(--gray-800);
+ color: #4a7080;
   line-height: 1.7;
   font-style: italic;
 }
@@ -386,12 +398,13 @@
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
+  
 }
 
 .testimonialAuthor span {
   display: block;
   font-size: 0.8rem;
-  color: var(--gray-400);
+ color: #4a7080;
 }
 
 /* FORM */
@@ -430,11 +443,12 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-top: 0.5rem;
+  color: #4a7080;
 }
 
 .secondperk {
   font-size: 0.875rem;
-  color: var(--gray-600);
+ color: #4a7080;
 }
 
 .form {

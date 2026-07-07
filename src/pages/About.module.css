@@ -184,7 +184,7 @@
 .teamAvatar {
   width: 56px;
   height: 56px;
-  background: #1a2b33;
+  background: var(--talent);
   color: white;
   border-radius: var(--radius-md);
   display: flex;

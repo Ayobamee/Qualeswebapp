@@ -391,7 +391,7 @@ export default function Talents() {
                         name='name'
                         value={form.name}
                         onChange={handle}
-                        placeholder='Ada Okonkwo'
+                        placeholder='Ada Smith'
                         required
                       />
                     </div>
@@ -419,14 +419,14 @@ export default function Talents() {
                       />
                     </div>
                     <div className={styles.field}>
-                      <label>Course of interest</label>
+                      <label>Plan of interest</label>
                       <select
                         name='course'
                         value={form.course}
                         onChange={handle}
                         required
                       >
-                        <option value=''>Select a course</option>
+                        <option value=''>Select a plan</option>
                         {courses.map((c) => (
                           <option key={c.title} value={c.title}>
                             {c.title}

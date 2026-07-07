@@ -439,7 +439,7 @@ export default function Talents() {
                     <label>Current experience level</label>
                     <select
                       style={{
-                        color: form.experience ? 'black' : 'rgba(0, 0, 0, 0.5)',
+                        color: form.experience ? '#5b7d8c' : 'rgba(0, 0, 0, 0.5)',
                       }}
                       name='experience'
                       value={form.experience}

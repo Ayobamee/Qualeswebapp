@@ -1,10 +1,13 @@
 .page {
   padding-top: 80px;
+  background: #f5f5f7;
 }
 
 .hero {
   padding: 7rem 0 6rem;
   background: #e8f0f0;
+  margin: 0 2rem 3rem 2rem;
+  border-radius: 24px;
 }
 
 .heroInner {
@@ -136,9 +139,14 @@
 /* SECTIONS */
 .section {
   padding: 5.5rem 0;
+  background: white;
+  border-radius: 24px;
+  margin: 0 2rem 3rem 2rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
 }
 .bgGreen {
   background: #1a2b33;
+  box-shadow: none;
 }
 
 .sectionTitle {
@@ -363,13 +371,13 @@
   color: #4a7080;
 }
 
-.testimonialName{
+.testimonialName {
   color: #4a7080;
 }
 
 .quote {
   font-size: 0.95rem;
- color: #4a7080;
+  color: #4a7080;
   line-height: 1.7;
   font-style: italic;
 }
@@ -398,13 +406,12 @@
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
-  
 }
 
 .testimonialAuthor span {
   display: block;
   font-size: 0.8rem;
- color: #4a7080;
+  color: #4a7080;
 }
 
 /* FORM */
@@ -448,7 +455,7 @@
 
 .secondperk {
   font-size: 0.875rem;
- color: #4a7080;
+  color: #4a7080;
 }
 
 .form {
@@ -465,8 +472,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  
-  
 }
 
 .field {
@@ -478,7 +483,7 @@
 .field label {
   font-size: 0.82rem;
   font-weight: 500;
-  color: #4a7080;;
+  color: #4a7080;
 }
 
 .field input,

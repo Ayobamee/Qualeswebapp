@@ -142,7 +142,7 @@ export default function QAAgents() {
         </div>
       </section>
 
-      {/* AGENTS - deep sections */}
+      {/* AGENTS - all inside one container so overflow:hidden clips them to the card */}
       <section id='agents' className={styles.agentsSection}>
         <div className='container'>
           <div className='greensection-label'>The suite</div>
@@ -153,15 +153,13 @@ export default function QAAgents() {
             Each agent solves a specific, painful QA bottleneck — built to plug
             into the tools your team already uses.
           </p>
-        </div>
 
-        {agents.map((agent, i) => (
-          <div
-            key={agent.id}
-            id={agent.id}
-            className={`${styles.agentBlock} ${i % 2 === 1 ? styles.agentBlockAlt : ''}`}
-          >
-            <div className='container'>
+          {agents.map((agent, i) => (
+            <div
+              key={agent.id}
+              id={agent.id}
+              className={`${styles.agentBlock} ${i % 2 === 1 ? styles.agentBlockAlt : ''}`}
+            >
               <div className={styles.agentGrid}>
                 <div className={styles.agentContent}>
                   <span className={styles.agentTag}>{agent.tag}</span>
@@ -206,8 +204,8 @@ export default function QAAgents() {
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
 
       {/* HOW IT WORKS */}

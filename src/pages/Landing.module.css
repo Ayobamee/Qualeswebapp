@@ -1,5 +1,6 @@
 .page {
   padding-top: 80px;
+  background: #f5f5f7;
 }
 
 /* HERO */
@@ -8,6 +9,8 @@
   background: #e8f0f0;
   position: relative;
   overflow: hidden;
+  border-radius: 24px;
+  margin: 0 2rem 3rem 2rem;
 }
 
 .hero::before {
@@ -165,8 +168,12 @@
 
 /* STATS */
 .stats {
-  padding: 4rem 0;
-  border-bottom: 1px solid var(--gray-100);
+  background: white;
+  border-radius: 24px;
+  margin: 0 2rem 3rem 2rem;
+  padding: 3rem 2rem;
+  border-bottom: none; /* remove the old border-bottom */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
 }
 
 .statsGrid {
@@ -195,8 +202,11 @@
 
 /* TRUSTED */
 .trusted {
-  padding: 4rem 0;
-  color: var(--talent);
+  background: white;
+  border-radius: 24px;
+  margin: 0 2rem 3rem 2rem;
+  padding: 3rem 0;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
 }
 
 .trustedLabel {
@@ -214,7 +224,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem 2.5rem;
-   color: var(--talent);
+  color: var(--talent);
 }
 
 .logoItem {
@@ -227,8 +237,10 @@
 
 /* HOW */
 .how {
+  margin: 0 2rem 3rem 2rem;
   padding: 6rem 0;
   background: #e8f0f0;
+  border-radius: 24px;
 }
 
 .howHeader {
@@ -239,7 +251,7 @@
 
 .howTitle {
   font-family: 'Plus Jakarta Sans Garamond', serif;
-  font-size: 2.2rem, 5vw, 3rem;
+  font-size: clamp(2.2rem, 5vw, 3rem);
   color: #243746;
   margin-bottom: 1rem;
 }
@@ -284,7 +296,7 @@
 
 /* CTA */
 .cta {
-  padding: 6rem 0;
+  padding: 0.75rem 0 1.5rem 0;
 }
 
 .ctaBox {

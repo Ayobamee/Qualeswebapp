@@ -588,6 +588,143 @@
   font-size: 0.9rem;
 }
 
+/* CASE STUDIES */
+.caseGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.caseCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  gap: 1.5rem;
+  transition: all 0.2s;
+}
+
+.caseCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.07);
+}
+
+.caseHeader {
+  display: flex;
+  align-items: flex-start; /* was center */
+  gap: 0.875rem;
+}
+.caseAvatar {
+  width: 40px;
+  height: 40px;
+  background: #e8f0f0;
+  color: #2b586b;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.caseClient {
+  display: block;
+  font-size: 0.85rem; /* reduce from 0.95rem */
+  font-weight: 600;
+  color: #243746;
+  white-space: nowrap; /* ← force single line */
+}
+
+.caseIndustry {
+  display: block;
+  font-size: 0.72rem;
+  color: #4a7080;
+  white-space: nowrap; /* ← keep industry on one line too */
+}
+
+.caseTag {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #2b586b;
+  background: #e8f0f0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+  flex-shrink: 0; /* ← add this — stops tag from wrapping */
+}
+
+.caseBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+  border-top: 1px solid var(--gray-100);
+  padding-top: 1.25rem;
+  justify-content: space-between; /* ← add this */
+}
+
+.caseBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.caseLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700; /* was 600 */
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #243746; /* was #4a7080 — darker for more presence */
+}
+
+.caseBlock p {
+  font-size: 0.875rem;
+  color: #556b78;
+  line-height: 1.6;
+}
+
+.caseOutcome {
+  background: #e8f0f0;
+  border-radius: var(--radius-sm);
+  padding: 0.875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: auto; /* ← keep this */
+}
+
+.caseOutcomeLabel {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700; /* was 600 */
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #e8f0f0;
+}
+
+.caseOutcome p {
+  font-size: 0.875rem;
+  color: #2b586b;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+@media (max-width: 960px) {
+  .caseGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 960px) {
   .heroInner {
     grid-template-columns: 1fr;

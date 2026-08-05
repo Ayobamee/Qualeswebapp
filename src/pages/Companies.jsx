@@ -93,10 +93,44 @@ const testimonials = [
   },
   {
     name: 'Bamidele Alegbe',
-    role: 'CTO, Chop Life Gaming',
+    role: 'CTO, ChopLife Gaming',
     quote:
       "What sets Quales apart is the ongoing support. They don't just place talent — they partner with you to make sure they thrive.",
     initials: 'BA',
+  },
+]
+
+const caseStudies = [
+  {
+    client: 'Zone',
+    industry: 'Agency Banking',
+    initials: 'ZN',
+    need: 'Long regression cycles and manual testing were slowing down development and increasing risk of production bugs.',
+    delivered: 'A full regression suite for the Agency Banking V2 application.',
+    outcome:
+      'Streamlined transactions and stronger fraud management across the platform.',
+    tag: 'QA Automation',
+  },
+  {
+    client: 'Qore',
+    industry: 'Lending',
+    initials: 'QR',
+    need: 'Buggy experience in the full lending process with Recova.',
+    delivered: 'Improved quality of the Recova lending application.',
+    outcome:
+      'Automated the full lending process with Recova, improving development speed.',
+    tag: 'QA Automation',
+  },
+  {
+    client: 'ChopLife Gaming',
+    industry: 'Gaming',
+    initials: 'CL',
+    need: 'Lack of QA engineers to support expansion of gaming platforms into Uganda and Tanzania.',
+    delivered:
+      'End-to-end testing services ensuring bugs were caught prior to expansion.',
+    outcome:
+      'Seamless launch into new African markets with zero critical production issues.',
+    tag: 'Talent Outsourcing',
   },
 ]
 
@@ -271,9 +305,7 @@ export default function Companies() {
       {/* PROCESS */}
       <section id='process' className={`${styles.section} ${styles.bgGray}`}>
         <div className='container'>
-          <div className= 'greensection-label'>
-            How it works
-          </div>
+          <div className='greensection-label'>How it works</div>
           <h2 className={styles.sectionTitle}>
             From request to onboarded, fast.
           </h2>
@@ -313,6 +345,49 @@ export default function Companies() {
                   <div>
                     <strong>{t.name}</strong>
                     <span>{t.role}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CASE STUDIES */}
+      <section
+        id='case-studies'
+        className={`${styles.section} ${styles.bgGray}`}
+      >
+        <div className='container'>
+          <div className='greensection-label'>Case studies</div>
+          <h2 className={styles.sectionTitle}>Results we have delivered</h2>
+          <p className={styles.sectionSub}>
+            Real projects. Real outcomes. Here is how we have helped
+            organisations across fintech and gaming build with confidence.
+          </p>
+          <div className={styles.caseGrid}>
+            {caseStudies.map((c) => (
+              <div key={c.client} className={styles.caseCard}>
+                <div className={styles.caseHeader}>
+                  <div className={styles.caseAvatar}>{c.initials}</div>
+                  <div>
+                    <strong className={styles.caseClient}>{c.client}</strong>
+                    <span className={styles.caseIndustry}>{c.industry}</span>
+                  </div>
+                  <span className={styles.caseTag}>{c.tag}</span>
+                </div>
+                <div className={styles.caseBody}>
+                  <div className={styles.caseBlock}>
+                    <strong className={styles.caseLabel}>The challenge</strong>
+                    <p>{c.need}</p>
+                  </div>
+                  <div className={styles.caseBlock}>
+                    <span className={styles.caseLabel}>What we delivered</span>
+                    <p>{c.delivered}</p>
+                  </div>
+                  <div className={styles.caseOutcome}>
+                    <span className={styles.caseOutcomeLabel}>Outcome</span>
+                    <p>{c.outcome}</p>
                   </div>
                 </div>
               </div>

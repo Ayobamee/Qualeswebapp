@@ -4,59 +4,51 @@ import styles from './Talents.module.css'
 const courses = [
   {
     title: ' Premium Package',
-    duration: '8 weeks',
+    duration: '10 weeks',
     level: 'Intermediate',
     topics: [
-      ' 8-week intensive training',
-      ' 2-week employment readiness',
-      ' 3-month internship',
-      'Admission into the Quales Network of 300+ testers.',
-      'Placement support',
-      'ISTQB CTFL Certification',
+      'All benefits in the Standard package',
+      'A three month structured QA internship with Quales partners and exposure to real industry projects',
     ],
     price: 'One-time payment ₦858,500(save ₦10,000)',
     additonalInfo: 'Instalment:₦289,500 per month over 3 months ',
+    internationalFee: 'International fee: US$723.750',
     featured: true,
   },
 
   {
     title: ' Standard Package',
-    duration: '8 weeks',
+    duration: '10 weeks',
     level: 'Intermediate',
-    topics: [
-      '  8-week intensive training',
-      ' 2-week employment readiness',
-      'Admission into the Quales Network of 300+ testers.',
-      'Placement support',
-      'ISTQB CTFL Certification',
-    ],
+    topics: ['All benefits in the Basic package', 'ISTQB CTFL Certification'],
 
     price: 'One-time payment ₦590,000(save ₦10,000)',
     additonalInfo: 'Instalment:₦200,000 per month over 3 months ',
+    internationalFee: 'International fee: US$500',
     featured: false,
   },
 
   {
     title: ' Basic Package',
-    duration: '8 weeks',
+    duration: '10 weeks',
     level: 'Intermediate',
     topics: [
-      '  8-week intensive training',
-      ' 2-week employment readiness',
+      ' 10-week intensive training',
       'Admission into the Quales Network of 300+ testers.',
       'Placement support',
     ],
 
     price: 'One-time payment ₦290,000(save ₦10,000)',
+    internationalFee: 'International fee: US$250',
     featured: false,
   },
 ]
 
 const timetable = [
   {
-    cohort: 'Cohort 22',
+    cohort: 'Cohort 23',
     course: 'Full Stack QA Engineering',
-    start: 'August, 2026',
+    start: 'November, 2026',
     seats: 20,
     status: 'Open',
   },
@@ -127,20 +119,18 @@ export default function Talents() {
             <div className={styles.heroText}>
               <div className={styles.badge}>For Talents</div>
               <h1 className={styles.heroTitle}>
-                Launch your tech career
-                <br />
-                <em>The right way.</em>
+                Developing the next generation of technology talents.
               </h1>
 
               <p className={styles.heroSub}>
-                Practical, cohort-based training in QA engineering & Scrum
-                Mastery. Learn from industry practitioners, work on real
-                projects, and get placed at top fintech companies.
+                Quales Academy builds practical technology capability through
+                structured learning, hands-on projects, industry- standard tools
+                and career preparation
               </p>
               <p className={styles.heroSub}>
-                Want to learn more before you commit? Join our free information
-                Session on Friday, 18 July 2026. Meet the team, ask your
-                questions and get a full walkthrough of our programme.
+                QA Cohort 23 starts 21 November 2026. The programme runs for 10
+                weeks, is fully online and includes live weekend classes.
+                Applications are open.
               </p>
               <div className={styles.heroPills}>
                 <span>100% practical curriculum</span>
@@ -148,7 +138,7 @@ export default function Talents() {
                 <span>Placement support</span>
               </div>
               <a href='#register' className={styles.heroApplyBtn}>
-                Reserve Your Spot →
+                Apply for Cohort 23 →
               </a>
             </div>
             <div className={styles.heroStats}>
@@ -161,11 +151,11 @@ export default function Talents() {
                 <span className={styles.statLbl}>graduates</span>
               </div>
               <div className={styles.heroStat}>
-                <span className={styles.statVal}>4–12</span>
+                <span className={styles.statVal}>10</span>
                 <span className={styles.statLbl}>week programs</span>
               </div>
               <div className={styles.heroStat}>
-                <span className={styles.statVal}>6</span>
+                <span className={styles.statVal}>22</span>
                 <span className={styles.statLbl}>active cohorts</span>
               </div>
             </div>
@@ -250,6 +240,9 @@ export default function Talents() {
                     <span className={styles.price}>{c.price}</span>
                     <span className={styles.additionalInfo}>
                       {c.additonalInfo}
+                    </span>
+                    <span className={styles.internationalFee}>
+                      {c.internationalFee}
                     </span>
                   </div>
                   <a
@@ -439,7 +432,9 @@ export default function Talents() {
                     <label>Current experience level</label>
                     <select
                       style={{
-                        color: form.experience ? '#5b7d8c' : 'rgba(0, 0, 0, 0.5)',
+                        color: form.experience
+                          ? '#5b7d8c'
+                          : 'rgba(0, 0, 0, 0.5)',
                       }}
                       name='experience'
                       value={form.experience}

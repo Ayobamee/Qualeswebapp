@@ -297,7 +297,11 @@
 
 .price,
 .additionalInfo {
-  font-family: 'Plus Jakarta Sans Garamond', serif;
+  font-size: 0.875rem;
+  color: #4a7080;
+}
+
+.internationalFee {
   font-size: 0.875rem;
   color: #4a7080;
 }

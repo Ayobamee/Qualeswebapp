@@ -209,9 +209,9 @@ export default function Talents() {
       {/* COURSES */}
       <section id='courses' className={styles.section}>
         <div className='container'>
-          <div className={styles.curriculumLabel}>Plans</div>
+          <div className={styles.curriculumLabel}>Packages</div>
           <h2 className={styles.trainingCourseTitle}>
-            Choose the right plan for you
+            Choose the right package for you
           </h2>
 
           <div className={styles.courseGrid}>
@@ -402,7 +402,7 @@ export default function Talents() {
                   </div>
                   <div className={styles.row2}>
                     <div className={styles.field}>
-                      <label>Phone number</label>
+                      <label>Phone or Whatsapp Number</label>
                       <input
                         name='phone'
                         value={form.phone}
@@ -412,14 +412,14 @@ export default function Talents() {
                       />
                     </div>
                     <div className={styles.field}>
-                      <label>Plan of interest</label>
+                      <label>Preferred Package</label>
                       <select
                         name='course'
                         value={form.course}
                         onChange={handle}
                         required
                       >
-                        <option value=''>Select a plan</option>
+                        <option value=''>Select a package</option>
                         {courses.map((c) => (
                           <option key={c.title} value={c.title}>
                             {c.title}
@@ -448,14 +448,25 @@ export default function Talents() {
                       <option>Already in QA, want to upskill</option>
                     </select>
                   </div>
+
                   <div className={styles.field}>
-                    <label>Why do you want to join? (optional)</label>
+                    <label>Current occupation or background</label>
                     <textarea
                       name='motivation'
                       value={form.motivation}
                       onChange={handle}
                       rows={3}
-                      placeholder='Tell us a bit about your goals...'
+                      placeholder='Tell us a bit about your background...'
+                    />
+                  </div>
+                  <div className={styles.field}>
+                    <label>Question or Message? (optional)</label>
+                    <textarea
+                      name='motivation'
+                      value={form.motivation}
+                      onChange={handle}
+                      rows={3}
+                      placeholder='Require any clarification?...'
                     />
                   </div>
                   <button

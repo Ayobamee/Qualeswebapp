@@ -262,17 +262,25 @@ export default function Talents() {
               </div>
             ))}
           </div>
-          <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
-            The Premium Package includes a structured 3 month QA internship with
-            Quales after the 10-week programme. Participants gain practical
-            experience in test planning, manual and API testing, automation,
-            reporting and collaboration.
-          </p>
-          <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
-            Placement support includes CV nad Linkedin guidance, interview
-            preparation, job search support and access to opportunities where
-            available. Particiaption does not gurantee employment
-          </p>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              gap: '1.5rem',
+            }}
+          >
+            <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
+              The Premium Package includes a structured 3 month QA internship
+              with Quales after the 10-week programme. Participants gain
+              practical experience in test planning, manual and API testing,
+              automation, reporting and collaboration.
+            </p>
+            <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
+              Placement support includes CV and LinkedIn guidance, interview
+              preparation, job search support and access to opportunities where
+              available. Participation does not guarantee employment.
+            </p>
+          </div>
         </div>
       </section>
 

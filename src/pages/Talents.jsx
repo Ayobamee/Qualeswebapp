@@ -282,14 +282,14 @@ export default function Talents() {
             }}
           >
             <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
-              The Premium Package includes a structured 3 month QA internship
+              The Premium Package includes a structured three-month QA internship
               with Quales after the 10-week programme. Participants gain
               practical experience in test planning, manual and API testing,
-              automation, reporting and collaboration.
+              test automation, reporting and collaboration.
             </p>
             <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
               Placement support includes CV and LinkedIn guidance, interview
-              preparation, job search support and access to opportunities where
+              preparation, job-search support and access to suitable opportunities where
               available. Participation does not guarantee employment.
             </p>
           </div>

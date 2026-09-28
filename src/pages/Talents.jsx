@@ -42,6 +42,18 @@ const courses = [
     internationalFee: 'International fee: US$250',
     featured: false,
   },
+  {
+    title: 'Lite Package',
+    duration: '4 weeks',
+    level: 'Intermediate',
+    topics: [
+      ' CT-AI and T-Gen AI examination preparation',
+      'Support through the examination registration process',
+    ],
+
+    price: 'Please click the apply now button to enquire more',
+    featured: false,
+  },
 ]
 
 const timetable = [

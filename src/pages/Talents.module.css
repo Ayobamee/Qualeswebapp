@@ -587,6 +587,13 @@
 
   .formLeft {
     padding-right: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .formDesc {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .form {

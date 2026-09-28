@@ -560,7 +560,8 @@
   .bgGreen {
     padding: 2rem 1rem;
     overflow: hidden;
-    margin: 0 1rem 2rem 1rem;
+    margin: 0 0 2rem 0;
+    border-radius: 0;
   }
   .heroInner {
     grid-template-columns: 1fr;

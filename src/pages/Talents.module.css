@@ -577,4 +577,10 @@
   .row2 {
     grid-template-columns: 1fr;
   }
+  .table th:nth-child(4),
+  .table td:nth-child(4),
+  .table th:nth-child(5),
+  .table td:nth-child(5) {
+    display: none;
+  }
 }

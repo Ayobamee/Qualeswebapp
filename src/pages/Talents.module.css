@@ -432,11 +432,6 @@
   gap: 1rem;
 }
 
-.formRight {
-  width: 100%;
-  max-width: 100%;
-}
-
 .formDesc {
   color: #c7d0d6;
   font-size: 0.95rem;
@@ -586,15 +581,24 @@
   .testimonialGrid {
     grid-template-columns: 1fr;
   }
+
   .formWrap {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 0;
+    margin: 0;
   }
-
   .formLeft {
     padding-right: 0;
     max-width: 100%;
     overflow: hidden;
+  }
+
+  .formRight {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .formDesc {
@@ -604,6 +608,7 @@
 
   .form {
     margin: 0;
+    width: 100%;
   }
   .row2 {
     grid-template-columns: 1fr;

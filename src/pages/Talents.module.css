@@ -574,6 +574,14 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .formLeft {
+    padding-right: 0;
+  }
+
+  .form {
+    margin: 0;
+  }
   .row2 {
     grid-template-columns: 1fr;
   }
@@ -584,5 +592,9 @@
   .table th:nth-child(5),
   .table td:nth-child(5) {
     display: none;
+  }
+  .bgGreen {
+    padding: 3rem 1.5rem;
+    overflow: hidden;
   }
 }

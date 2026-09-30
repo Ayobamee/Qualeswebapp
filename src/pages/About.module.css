@@ -265,7 +265,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
   .missionGrid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -278,5 +278,12 @@
   }
   .ctaBox {
     padding: 2.5rem 1.5rem;
+  }
+  .timeline {
+    margin-left: 0;
+  }
+  .milestone {
+    grid-template-columns: 50px 16px 1fr;
+    gap: 0 0.75rem;
   }
 }

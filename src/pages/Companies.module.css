@@ -718,14 +718,14 @@
   line-height: 1.55;
   font-weight: 500;
 }
-
 @media (max-width: 960px) {
+  .caseCard {
+    width: 100%;
+    box-sizing: border-box;
+  }
   .caseGrid {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 960px) {
   .heroInner {
     grid-template-columns: 1fr;
   }
@@ -748,6 +748,28 @@
   }
   .row2 {
     grid-template-columns: 1fr;
+  }
+  .talentRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .talentInfo {
+    width: 100%;
+  }
+  .talentTags {
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .section {
+    padding: 3rem 1rem;
+    margin: 0 1rem 2rem 1rem;
+  }
+  .bgGreen {
+    padding: 2rem 1rem;
+    overflow: hidden;
+    margin: 0 0 2rem 0;
+    border-radius: 0;
   }
 }
 

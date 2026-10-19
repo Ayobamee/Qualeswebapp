@@ -156,7 +156,7 @@ export default function Companies() {
       ...form,
     }).toString()
     try {
-      await fetch('/', {
+      await fetch('https://qualeswebapp.netlify.app/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body,

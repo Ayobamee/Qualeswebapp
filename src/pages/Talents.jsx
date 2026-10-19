@@ -114,7 +114,7 @@ export default function Talents() {
       ...form,
     }).toString()
     try {
-      await fetch('/', {
+      await fetch('https://qualeswebapp.netlify.app/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body,
@@ -282,15 +282,16 @@ export default function Talents() {
             }}
           >
             <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
-              The Premium Package includes a structured three-month QA internship
-              with Quales after the 10-week programme. Participants gain
-              practical experience in test planning, manual and API testing,
-              test automation, reporting and collaboration.
+              The Premium Package includes a structured three-month QA
+              internship with Quales after the 10-week programme. Participants
+              gain practical experience in test planning, manual and API
+              testing, test automation, reporting and collaboration.
             </p>
             <p className={styles.heroSub} style={{ marginTop: '1.5rem' }}>
               Placement support includes CV and LinkedIn guidance, interview
-              preparation, job-search support and access to suitable opportunities where
-              available. Participation does not guarantee employment.
+              preparation, job-search support and access to suitable
+              opportunities where available. Participation does not guarantee
+              employment.
             </p>
           </div>
         </div>

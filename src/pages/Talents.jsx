@@ -97,6 +97,7 @@ const initialForm = {
   country: '',
   course: '',
   experience: '',
+  occupation: '',
   motivation: '',
 }
 
@@ -507,8 +508,8 @@ export default function Talents() {
                   <div className={styles.field}>
                     <label>Current occupation or background</label>
                     <textarea
-                      name='motivation'
-                      value={form.motivation}
+                      name='occupation'
+                      value={form.occupation}
                       onChange={handle}
                       rows={3}
                       placeholder='Tell us a bit about your background...'
